@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia [Nome da Barbearia] - Seu Estilo, Nossa Arte</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="logo.png" alt="Logo Barbearia"></a>
+                <h1>Barbearia do Cavalheiro</h1>
+            </div>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menu de navegação">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços e Preços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#agendamento">Agendamento</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Seu Estilo, Nossa Arte.</h2>
+                    <p>A experiência que você merece, o corte que você procura.</p>
+                    <a href="#agendamento" class="btn btn-primary">Agende seu Horário <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section-padded">
+            <div class="container">
+                <h2 class="section-title">Sobre Nós</h2>
+                <div class="sobre-content">
+                    <img src="interior da barbearia.png" alt="Interior da Barbearia" class="img-responsive fade-in">
+                    <div class="sobre-text">
+                        <p>Bem-vindo à <strong>Barbearia do Cavalheiro</strong>, um espaço onde a paixão pelo cuidado masculino e o estilo se encontram. Fundada em 20XX, nossa missão é proporcionar não apenas um corte de cabelo ou uma barba bem feita, mas uma experiência completa de relaxamento e renovação.</p>
+                        <p>Nossa equipe de barbeiros altamente qualificados está sempre atualizada com as últimas tendências e técnicas, garantindo um serviço de excelência. Utilizamos apenas produtos de alta qualidade para cuidar da sua pele e cabelo. Venha nos visitar e descubra o ambiente perfeito para cuidar de si!</p>
+                        <a href="#contato" class="btn btn-secondary">Localização e Contato <i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="section-padded bg-light-gray">
+            <div class="container">
+                <h2 class="section-title">Nossos Serviços e Preços</h2>
+                <div class="servicos-grid">
+                    <div class="servico-item fade-in">
+                        <div class="servico-icon-wrapper"><i class="fas fa-cut servico-icon"></i></div>
+                        <h3>Corte Clássico</h3>
+                        <p>Corte de cabelo com tesoura e máquina, finalizado com produtos premium e lavagem capilar.</p>
+                        <span class="preco">R$ 40,00</span>
+                    </div>
+                    <div class="servico-item fade-in">
+                        <div class="servico-icon-wrapper"><i class="fas fa-scissors servico-icon"></i><i class="fas fa-razorblade servico-icon combo-icon"></i></div>
+                        <h3>Barba Modelada</h3>
+                        <p>Modelagem e aparo da barba com navalha e toalha quente, acompanhada de massagem facial.</p>
+                        <span class="preco">R$ 35,00</span>
+                    </div>
+                    <div class="servico-item fade-in">
+                        <div class="servico-icon-wrapper"><i class="fas fa-cut servico-icon"></i><i class="fas fa-beard servico-icon combo-icon"></i></div>
+                        <h3>Corte + Barba</h3>
+                        <p>Pacote completo de corte de cabelo e barba para um visual totalmente renovado e impecável.</p>
+                        <span class="preco">R$ 70,00</span>
+                    </div>
+                    <div class="servico-item fade-in">
+                        <div class="servico-icon-wrapper"><i class="fas fa-spa servico-icon"></i></div>
+                        <h3>Relaxamento Capilar</h3>
+                        <p>Tratamento especializado para cabelos cacheados ou crespos, hidratação profunda e definição.</p>
+                        <span class="preco">R$ 60,00</span>
+                    </div>
+                    <div class="servico-item fade-in">
+                        <div class="servico-icon-wrapper"><i class="fas fa-hand-sparkles servico-icon"></i></div>
+                        <h3>Limpeza de Pele</h3>
+                        <p>Limpeza facial profissional para remover impurezas, cravos e células mortas, revitalizando a pele.</p>
+                        <span class="preco">R$ 50,00</span>
+                    </div>
+                     <div class="servico-item fade-in">
+                        <div class="servico-icon-wrapper"><i class="fas fa-tint servico-icon"></i></div>
+                        <h3>Pigmentação de Barba</h3>
+                        <p>Serviço de coloração para realçar a cor natural da barba e preencher pequenas falhas.</p>
+                        <span class="preco">R$ 45,00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section-padded">
+            <div class="container">
+                <h2 class="section-title">Nossos Trabalhos</h2>
+                <div class="galeria-grid">
+                    <img src="corte de cabelo 1.png" alt="Corte de Cabelo 1" class="img-galeria fade-in">
+                    <img src="corte de barba 1.png" alt="Barba Feita 1" class="img-galeria fade-in">
+                    <img src="corte de cabelo 2.png" alt="Corte de Cabelo 2" class="img-galeria fade-in">
+                    <img src="corte de barba 2.png" alt="Barba Feita 2" class="img-galeria fade-in">
+                    <img src="corte de cabelo 3.png" alt="Corte de Cabelo 3" class="img-galeria fade-in">
+                    <img src="ambiente da barbearia.png" alt="Ambiente da Barbearia" class="img-galeria fade-in">
+                </div>
+                <div class="text-center mt-4">
+                    <a href="#" class="btn btn-secondary">Ver Mais Fotos <i class="fas fa-images"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section-padded bg-light-gray">
+            <div class="container">
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+                <div class="depoimentos-carousel">
+                    <div class="depoimento-item">
+                        <p class="depoimento-texto">"Atendimento impecável e um corte que superou minhas expectativas! Recomendo a todos que buscam qualidade e profissionalismo."</p>
+                        <p class="depoimento-autor">- João Silva</p>
+                    </div>
+                    <div class="depoimento-item">
+                        <p class="depoimento-texto">"Ambiente agradável e barbeiros muito talentosos. Minha barba nunca esteve tão bem cuidada. Voltarei com certeza!"</p>
+                        <p class="depoimento-autor">- Pedro Santos</p>
+                    </div>
+                    <div class="depoimento-item">
+                        <p class="depoimento-texto">"Pontualidade e um resultado perfeito. A melhor barbearia de Recife sem dúvidas. Preços justos pelo serviço de primeira."</p>
+                        <p class="depoimento-autor">- Carlos Oliveira</p>
+                    </div>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <section id="horarios" class="section-padded">
+            <div class="container">
+                <h2 class="section-title">Horário de Funcionamento</h2>
+                <div class="horarios-content">
+                    <p><i class="fas fa-calendar-alt"></i> Segunda a Sexta: <span class="horario-time">09:00 - 19:00</span></p>
+                    <p><i class="fas fa-calendar-alt"></i> Sábado: <span class="horario-time">09:00 - 16:00</span></p>
+                    <p><i class="fas fa-calendar-times"></i> Domingo: <span class="horario-time">Fechado</span></p>
+                    <p class="horario-info">Agende seu horário para garantir o melhor atendimento!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="agendamento" class="section-padded bg-light-gray">
+            <div class="container">
+                <h2 class="section-title">Agende seu Horário</h2>
+                <p class="section-description">Preencha o formulário abaixo para marcar seu atendimento. Entraremos em contato para confirmar!</p>
+                <form id="formAgendamento" action="https://formspree.io/f/YOUR_FORMSPREE_HASH" method="POST" class="agendamento-form">
+                    <div class="form-group">
+                        <label for="nome"><i class="fas fa-user"></i> Nome Completo:</label>
+                        <input type="text" id="nome" name="Nome" required placeholder="Seu nome completo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefone"><i class="fas fa-phone-alt"></i> Telefone (WhatsApp):</label>
+                        <input type="tel" id="telefone" name="Telefone" placeholder="(XX) XXXXX-XXXX" required pattern="^\(?\d{2}\)?[\s-]?\d{4,5}-?\d{4}$">
+                        <small>Ex: (81) 99876-5432</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="servico"><i class="fas fa-concierge-bell"></i> Serviço Desejado:</label>
+                        <select id="servico" name="Servico" required>
+                            <option value="">Selecione um serviço</option>
+                            <option value="Corte Classico">Corte Clássico - R$ 40,00</option>
+                            <option value="Barba Modelada">Barba Modelada - R$ 35,00</option>
+                            <option value="Corte + Barba">Corte + Barba - R$ 70,00</option>
+                            <option value="Relaxamento Capilar">Relaxamento Capilar - R$ 60,00</option>
+                            <option value="Limpeza de Pele">Limpeza de Pele - R$ 50,00</option>
+                            <option value="Pigmentacao de Barba">Pigmentação de Barba - R$ 45,00</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group-inline">
+                        <div class="form-group">
+                            <label for="data"><i class="fas fa-calendar-alt"></i> Data Preferencial:</label>
+                            <input type="date" id="data" name="Data" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hora"><i class="fas fa-clock"></i> Hora Preferencial:</label>
+                            <input type="time" id="hora" name="Hora" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="observacoes"><i class="fas fa-comment-dots"></i> Observações (Opcional):</label>
+                        <textarea id="observacoes" name="Observacoes" rows="4" placeholder="Alguma preferência, alergia, ou detalhe sobre seu agendamento?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">Agendar Meu Horário</button>
+                    <p id="form-status" class="hidden"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="contato" class="section-padded">
+            <div class="container">
+                <h2 class="section-title">Onde Nos Encontrar</h2>
+                <div class="contato-content">
+                    <div class="contato-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - Bairro Centro, Recife - PE</p>
+                        <p><i class="fas fa-phone"></i> Telefone: (81) 99999-9999</p>
+                        <p><i class="fas fa-envelope"></i> Email: contato@[nomedabrabearia].com.br</p>
+                        <p><i class="fab fa-instagram"></i> Instagram: <a href="https://instagram.com/nomedabrabearia" target="_blank">@[nomedabrabearia]</a></p>
+                        <p><i class="fab fa-facebook-f"></i> Facebook: <a href="https://facebook.com/nomedabrabearia" target="_blank">/[nomedabrabearia]</a></p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.485125902167!2d-34.8810776!3d-8.0583626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab19a32c2a2b75%3A0xc0f1f1d1c1a1b1c1!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Nome da Barbearia]. Todos os direitos reservados. Design por [Seu Nome/Empresa]</p>
+            <div class="social-links">
+                <a href="https://instagram.com/nomedabrabearia" target="_blank" aria-label="Instagram da Barbearia"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/nomedabrabearia" target="_blank" aria-label="Facebook da Barbearia"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/5581999999999" target="_blank" aria-label="WhatsApp da Barbearia"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
